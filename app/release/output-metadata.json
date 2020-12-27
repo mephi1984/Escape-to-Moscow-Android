@@ -1,0 +1,54 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "fishrungames.escapetomoscow",
+  "variantName": "processReleaseResources",
+  "elements": [
+    {
+      "type": "UNIVERSAL",
+      "filters": [],
+      "versionCode": 113,
+      "versionName": "1.4.1",
+      "outputFile": "app-113-universal-release.apk"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "x86_64"
+        }
+      ],
+      "versionCode": 800000113,
+      "versionName": "1.4.1",
+      "outputFile": "app-800000113-x86_64-release.apk"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "arm64-v8a"
+        }
+      ],
+      "versionCode": 100000113,
+      "versionName": "1.4.1",
+      "outputFile": "app-100000113-arm64-v8a-release.apk"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "armeabi-v7a"
+        }
+      ],
+      "versionCode": 113,
+      "versionName": "1.4.1",
+      "outputFile": "app-113-armeabi-v7a-release.apk"
+    }
+  ]
+}
